@@ -40,10 +40,18 @@ done
 It is also possible to run this script as an executable file.
 
 - Start by making a bash file `vim script_name.sh`
+  - click "i" to start inserting text
+  - Add script (see below), remember to start with top text with '#!/bin/bash'
+  - click "esc" to stop text editing mode
+  - Type ":wq" to write and quit file
 - Start the first line with `#!/bin/bash`
+- Add the code chunk below (example below is for 24 well plates)
 - Change the permission of the file `sudo chmod u+r+x script_name.sh`
 - Now you should be able to execute the file by double clicking on it.
+- If not, you can run the script in the terminal:
+  - bash script_name.sh
 
+The script:
 ```
 #!/bin/bash
 
