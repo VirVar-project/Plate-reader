@@ -41,7 +41,7 @@ It is also possible to run this script as an executable file.
 
 - Start by making a bash file `vim script_name.sh`
   - click "i" to start inserting text
-  - Add script (see below), remember to start with top text with '#!/bin/bash'
+  - Add script (see below), remember to start the top text with '#!/bin/bash'
   - click "esc" to stop text editing mode
   - Type ":wq" to write and quit file
 - Start the first line with `#!/bin/bash`
